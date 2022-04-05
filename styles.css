@@ -1,0 +1,227 @@
+body {
+    overflow-x: hidden;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat";
+}
+
+
+#title {
+    background-color: #ff4c68;
+    color: #ffff;
+}
+
+.big-heading {
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-weight: bolder;
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* #head{
+    margin-top: 5%;
+} */
+
+ul {
+    color: white;
+    text-decoration: none;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 7rem;
+}
+
+
+.navbar-brand {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0px 15px;
+}
+
+.nav-link {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+/* Know More Button Top */
+#button {
+    margin-top: 5%;
+}
+/* Title Image  */
+.title-image {
+    width: 20%;
+    /* height: auto; */
+    transform: rotate(25deg);
+    position: absolute;
+    margin-left: 10%;
+}
+
+/* Skills Section */
+#skills {
+    padding: 10% 15%;
+    background-color: #fff ;
+    position: relative;
+    z-index: 1;
+}
+
+#skills_section {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.headfont_skills {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.skills_desc {
+    font-size: 1.3rem;
+    color: grey;
+}
+
+#skills_head {
+    text-align: center;
+    padding-bottom: 10%;
+    font-weight: bold;
+}
+
+#icons {
+    color: #ef8172;
+    margin-bottom: 2rem;
+}
+
+#icons:hover {
+    color: #ff4c68;
+}
+
+/* Achivements Section */
+#Achievements{
+    padding: 7% 15%;
+    text-align: center;
+    height: 470px;
+    background-color: #ef8172;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#testimonial_text{
+    font-size: 3rem;
+    color: black;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing Section */
+#pricing{
+    padding: 5% 10%;
+    text-align: center;
+}
+.price_text{
+    font-size: 3 rem;
+    line-height: 1.5;
+    color: black;
+}
+#pricing_heading{
+    color: black;
+    text-align: center;
+}
+
+#pricing_para{
+    text-align: center;
+}
+
+.pricing_column{
+    padding: 4% 2%;
+}
+
+#cta{
+    background-color: #ff4c68; 
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    height: 400px;
+}
+
+#cta_heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-top: 5%;
+    font-weight: bolder;
+}
+
+.btn_download{
+    margin-top: 5%;
+}
+
+
+.social{
+
+    text-align: center;
+    padding-bottom: 5%;
+    margin-top: 25px;
+}
+.btn_socials:hover{
+    color: #ef8172;
+}
+
+.btn_socials{
+    padding-left: 5px;
+}
+#footer{
+    text-align: center;
+}
+/* Cards */
+.card{
+    background-color: #ffffff;
+    border-radius: 2px solid black;
+}
+
+.card-header{
+    color: white;
+    background: #ef8172;
+    font-weight: bolder;
+}
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+        margin-top: 10px;
+        width: 60%;
+    }
+    .title-image{
+        margin-top: 7%;
+    }
+}
